@@ -24,6 +24,8 @@
 3. 重启 MaiBot，在 WebUI 插件列表里启用「Edge TTS 免费语音」。
 4. 在群里发送 `/语音 你好，这是一条测试语音`，确认能收到语音消息。
 
+> `config.toml` 不需要手动创建，也不需要提交到仓库。MaiBot 首次加载插件时会根据 `config_model` 自动生成默认配置；后续修改请在 WebUI 的插件配置页操作。
+
 ### Docker / 云服务器部署
 
 MaiBot 跑在 Docker 里时，插件目录通常是 compose 挂载的 `plugins/`（例如 `~/maibot/data/MaiMBot/plugins`），把插件目录复制进去后重启 core 容器即可。
