@@ -1,0 +1,6 @@
+# 运行时由 Runner 根据 config_model 生成，不提交到仓库
+config.toml
+# Python 缓存
+__pycache__/
+*.py[cod]
+.venv/
