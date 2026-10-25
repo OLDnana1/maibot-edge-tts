@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Edge TTS 免费语音",
   "description": "使用微软 Edge 在线语音合成（edge-tts）把文字转成 QQ 语音，支持音色、语速、音量、音调与代理配置",
   "author": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/OLDnana1"
   },
   "license": "MIT",
-  "plugin_type": "provider",
+  "plugin_type": "media",
   "urls": {
     "repository": "https://github.com/OLDnana1/maibot-edge-tts",
     "homepage": "https://github.com/OLDnana1/maibot-edge-tts",

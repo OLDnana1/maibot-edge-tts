@@ -1,5 +1,11 @@
 # 更新日志
 
+## 1.0.1
+
+- `host_application.max_version` 收紧到 `1.3.99`。
+- 不再提交 `config.toml`，改由运行时根据 `config_model` 生成，并加入 `.gitignore`。
+- `plugin_type` 补充为 `media`。
+
 ## 1.0.0
 
 - 首个版本：基于 `edge-tts` 的免费语音合成与发送。
